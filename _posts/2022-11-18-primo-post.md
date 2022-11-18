@@ -1,7 +1,7 @@
 ---
 title: Primo Post
-date: 2022-11-18 00:00:00 Z
-published: false
+date: {}
+published: true
 ---
 
 Questo é un nostro ricordo:
