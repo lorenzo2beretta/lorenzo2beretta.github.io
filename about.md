@@ -1,8 +1,7 @@
 ---
 title: About
-permalink: /about/
+permalink: "/about/"
 layout: page
-published: true
 ---
 
 Ciao, sono Agnese! Per ora non ho scritto molto su di me, ma penso che a breve lo faró 😄
