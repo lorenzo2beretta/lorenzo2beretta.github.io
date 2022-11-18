@@ -1,8 +1,6 @@
 ---
 title: Primo Post
-date:
-  'Fri Nov 18 2022 01:00:00 GMT+0100 (Central European Standard Time)': null
-published: true
+date: 2022-11-18 01:00:00 Z
 ---
 
 Questo é un nostro ricordo:
