@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Ciao, sono Agnese! Per ora non ho scritto molto su di me, ma penso che a breve lo faró 😄
 
-### More Information
+### Giornalismo
 
-A place to include any other types of information that you'd like to include about yourself.
+Magari posso scrivere perché mi piacerebbe scrivere qui contenuti pseudo-gioralistici. O magari no! Boh... 
 
-### Contact me
+### Contatti
 
-[email@domain.com](mailto:email@domain.com)
+[agnesedifrancesco.blog@gmail.com](email:agnesedifrancesco.blog@gmail.com)
