@@ -1,6 +1,7 @@
 ---
 title: Primo Post
-date: {}
+date:
+  'Fri Nov 18 2022 01:00:00 GMT+0100 (Central European Standard Time)': null
 published: true
 ---
 
