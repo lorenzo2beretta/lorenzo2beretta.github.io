@@ -5,7 +5,7 @@ title: Primo Post
 
 **18 Novembre 2022**  
 
-Il mio primo post é bellissimo! Include la seguente immagine.
+Il mio primo post e' bellissimo! Include la seguente immagine.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
