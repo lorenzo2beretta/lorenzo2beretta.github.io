@@ -1,8 +1,9 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
+
 Ciao, sono Agnese\! Per ora non ho scritto molto su di me, ma penso che a breve lo far&oacute; 😄
 
 ### Giornalismo
