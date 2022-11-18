@@ -9,7 +9,7 @@ name: Agnese Di Francesco
 description: Blogger alle prime armi
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/master/images/agne-avatar.jpg
+avatar: https://{{ site.baseurl }}/master/images/agne-avatar.jpg
 # https://raw.githubusercontent.com/lorenzo2beretta/lorenzo2beretta.github.io
 #
 # Flags below are optional
