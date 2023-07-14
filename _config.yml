@@ -1,18 +1,8 @@
----
 title: Lorenzo Beretta
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-email: [my_name]2beretta@gmail.com where [myname]=lorenzo
-description:"In TCS, it is about the tricks."
+email: lorenzo2beretta@gmail.com
+description: "In TCS, it is all about the tricks."
 baseurl: ''
 url: ''
-github_username: 
 markdown: kramdown
 theme: minima
 plugins:
