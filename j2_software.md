@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Software
-permalink: /software/
+permalink: "/software/"
+layout: page
 ---
 
 Most of my software can be found at my [github page](https://github.com/nicolaprezza). Below you can find  a list of my main projects.

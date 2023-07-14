@@ -1,9 +1,8 @@
 ---
-layout: page
 title: Contacts
-permalink: /contacts/
+permalink: "/contacts/"
+layout: page
 ---
-
 
 - **Room**: Building Z, room zb17
 - **Department** of Environmental Sciences, Informatics and Statistics,
