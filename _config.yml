@@ -9,11 +9,7 @@ collections:
     title: Uploads
     output: true
 email: lorenzo2beretta@gmail.com
-<<<<<<< HEAD
 description:"In TCS, it is about the tricks."
-=======
-description: 
->>>>>>> 0e16a60d8d1c832451c1b8883f0956254002b3e7
 baseurl: ''
 url: ''
 github_username: 
