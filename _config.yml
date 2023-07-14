@@ -12,7 +12,7 @@ email: lorenzo2beretta@gmail.com
 description: Lorenzo Beretta's personal web page
 baseurl: ''
 url: ''
-github_username:
+github_username: 
 markdown: kramdown
 theme: minima
 plugins:
