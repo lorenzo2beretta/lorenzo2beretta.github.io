@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Teaching
-permalink: /teaching/
+permalink: "/teaching/"
+layout: page
 ---
 
 Courses I teach/have taught:
