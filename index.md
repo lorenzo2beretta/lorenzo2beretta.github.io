@@ -4,8 +4,6 @@ layout: default
 
 # About
 
-<img src="figures/io_unive.jpg" align="right" width="40%" hspace="30" vspace="0" alt="be balanced" />
-
 Full CV [here](pdfs/CV.pdf).
 
 Hi! I'm a third-year PhD student at BARC, University of Copenhagen :D
