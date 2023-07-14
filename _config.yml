@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: lorenzo2beretta@gmail.com
+email: [my_name]2beretta@gmail.com where [myname]=lorenzo
 description:"In TCS, it is about the tricks."
 baseurl: ''
 url: ''
