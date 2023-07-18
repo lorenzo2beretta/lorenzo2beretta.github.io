@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 email: lorenzo2beretta@gmail.com
-description: "Leave the world a little better than you found it."
+description: Leave the world a little better than you found it.
 baseurl: ''
 url: ''
 markdown: kramdown
