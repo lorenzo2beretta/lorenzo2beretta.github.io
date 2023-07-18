@@ -38,4 +38,4 @@ Nardini, Roberto Trani and Rossano Venturini. IEEE Transactions on Knowledge and
 
 # Miscellanea
 
-* Three things that I like: Pesto Lasagna, Mountain Biking and TCS <3 
+* Three things that I enojoy: Pesto Lasagna, Mountain Biking and TCS <3 
