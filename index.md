@@ -9,11 +9,13 @@ layout: default
 Hi! I'm Lorenzo and I'm a third-year PhD student at [BARC](https://barc.ku.dk/){:target="_blank"}, University of Copenhagen.
 I'm fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/){:target="_blank"} 
 and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen){:target="_blank"}.
+I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms 
+and algorithms for (geo)metric problems.
 
-### **I'm looking for a job!** Please, reach out if you wanna hire me for a PostDoc ([Full CV](pdfs/CV.pdf)).
+### **I'm looking for a job!** Please, reach out if you wanna hire me for a PostDoc ([Full CV](pdfs/CV.pdf)){:target="_blank"}.
 
 
-# Publications
+# Papers
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi, Nikos Parotsidis.
 Submitted.
 
