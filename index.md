@@ -15,7 +15,10 @@ and algorithms for (geo)metric problems.
 
 
 # Papers
-1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi, Nikos Parotsidis.
+1. **Min-Weight Bipartite Matching and Earth-Mover Distance in Sublinear Time**. Lorenzo Beretta and
+Aviad Rubinstein. Work in progress.
+
+1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
 Submitted.
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
