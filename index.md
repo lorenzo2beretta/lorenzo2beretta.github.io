@@ -24,6 +24,7 @@ Submitted.
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
 and Mikkel Thorup. 
 FOCS 2023.
+[arXiv](https://arxiv.org/abs/2308.14134){:target="_blank"}.
 
 1. **Online Sorting and Translational Packing of Convex Polygons**. Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist. 
 SODA 2023.
