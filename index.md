@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# About
+
 <img src="figures/titicaca_lake.jpg" align="right" width="40%" hspace="30" vspace="0" alt="be balanced" />
 
 Hi! I am Lorenzo and I am a third-year PhD student at [BARC](https://barc.ku.dk/){:target="_blank"}, University of Copenhagen.
