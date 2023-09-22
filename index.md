@@ -21,7 +21,7 @@ and algorithms for (geo)metric problems.
 Aviad Rubinstein. Work in progress.
 
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
-Submitted.
+NeurIPS 2023.
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
 and Mikkel Thorup. 
