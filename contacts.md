@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Contacts
-permalink: /contacts/
+permalink: "/contacts/"
+layout: page
 ---
 
 - **Department** of Computer Science, University of Copenhagen.
