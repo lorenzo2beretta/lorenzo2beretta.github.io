@@ -24,6 +24,7 @@ Aviad Rubinstein. Work in progress.
 NeurIPS 2023.
 [arXiv](https://arxiv.org/abs/2309.16384){:target="_blank"}.
 
+1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
 and Mikkel Thorup. 
 FOCS 2023.
 [arXiv](https://arxiv.org/abs/2308.14134){:target="_blank"}.
