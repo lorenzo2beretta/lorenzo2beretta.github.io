@@ -13,7 +13,7 @@ and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen){:target
 I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms 
 and algorithms for (geo)metric problems.
 
-### **I'm looking for a job!** Please, reach out if you'd like to hire me for a PostDoc ([Full CV](pdfs/CV.pdf){:target="_blank"}).
+### **I'm looking for a postdoc position!** Please, reach out if you'd like to hire me([Full CV](pdfs/CV.pdf){:target="_blank"}).
 
 
 # Papers
