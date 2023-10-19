@@ -6,9 +6,9 @@ layout: default
 
 <img src="figures/titicaca_lake.jpg" align="right" width="40%" hspace="30" vspace="0" alt="be balanced" />
 
-Hi! I am Lorenzo and I am a third-year PhD student at [BARC](https://barc.ku.dk/){:target="_blank"}, University of Copenhagen.
-I am fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/){:target="_blank"} 
-and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen){:target="_blank"}.
+Hi! I am Lorenzo and I am a third-year PhD student at [BARC](https://barc.ku.dk/), University of Copenhagen.
+I am fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/) 
+and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen).
 
 I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms 
 and algorithms for (geo)metric problems.
