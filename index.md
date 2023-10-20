@@ -17,7 +17,7 @@ and algorithms for (geo)metric problems.
 
 
 # Papers
-1. **Min-Weight Bipartite Matching and Earth Mover's Distance in Sublinear Time**. Lorenzo Beretta and
+1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
 Aviad Rubinstein. [manuscript](pdfs/emd_paper.pdf).
 
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
