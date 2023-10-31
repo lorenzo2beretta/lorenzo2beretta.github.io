@@ -18,7 +18,7 @@ and algorithms for (geo)metric problems.
 
 # Papers
 1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
-Aviad Rubinstein. [manuscript](pdfs/emd_paper.pdf).
+Aviad Rubinstein. [arXiv](https://arxiv.org/abs/2310.19514).
 
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
 NeurIPS 2023.
