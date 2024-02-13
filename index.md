@@ -6,7 +6,7 @@ layout: default
 
 <img src="figures/titicaca_lake.jpg" align="right" width="40%" hspace="30" vspace="0" alt="be balanced" />
 
-Hi! I am Lorenzo and I am a third-year PhD student at [BARC](https://barc.ku.dk/), University of Copenhagen.
+Hi! I am Lorenzo and I am a fourth-year PhD student at [BARC](https://barc.ku.dk/), University of Copenhagen.
 I am fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/) 
 and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen).
 
@@ -18,31 +18,34 @@ and algorithms for (geo)metric problems.
 
 # Papers
 1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
-Aviad Rubinstein. [arXiv](https://arxiv.org/abs/2310.19514).
+Aviad Rubinstein. 
+**STOC 2023**.
+[arXiv](https://arxiv.org/abs/2310.19514).
 
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
-NeurIPS 2023.
+**NeurIPS 2023**.
 [arXiv](https://arxiv.org/abs/2309.16384).
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
 and Mikkel Thorup. 
-FOCS 2023.
+**FOCS 2023**.
 [arXiv](https://arxiv.org/abs/2308.14134).
 
 1. **Online Sorting and Translational Packing of Convex Polygons**. Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist. 
-SODA 2023.
+**SODA 2023**.
 [arXiv](https://arxiv.org/abs/2112.03791).
 
 1. **Better Sum Estimation via Weighted Sampling**. Lorenzo Beretta and Jakub Tetek.
-SODA 2022. Best Student Paper Award.
+**SODA 2022**. Best Student Paper Award.
 [arXiv](https://arxiv.org/abs/2110.14948).
 
-1. **Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. SoCG 2021.
+1. **Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. 
+**SoCG 2021**.
 [arXiv](https://arxiv.org/abs/2101.09024).
 
 1. **An Optimal Algorithm to Find Champions of Tournament Graphs**. Lorenzo Beretta, Franco Maria
 Nardini, Roberto Trani and Rossano Venturini. IEEE Transactions on Knowledge and Data Engineering 
-(TKDE). [arXiv](https://arxiv.org/abs/2111.13621).
+(**TKDE**). [arXiv](https://arxiv.org/abs/2111.13621).
 
 # Miscellanea
 
