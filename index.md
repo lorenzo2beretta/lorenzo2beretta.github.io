@@ -18,34 +18,34 @@ and algorithms for (geo)metric problems.
 
 # Papers
 1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
-Aviad Rubinstein. 
-**STOC 2023**.
-[arXiv](https://arxiv.org/abs/2310.19514).
+Aviad Rubinstein. \
+**STOC 2024**.
+[[arXiv](https://arxiv.org/abs/2310.19514)].
 
-1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
+1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.\
 **NeurIPS 2023**.
-[arXiv](https://arxiv.org/abs/2309.16384).
+[[arXiv](https://arxiv.org/abs/2309.16384)].
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
-and Mikkel Thorup. 
+and Mikkel Thorup. \
 **FOCS 2023**.
-[arXiv](https://arxiv.org/abs/2308.14134).
+[[arXiv](https://arxiv.org/abs/2308.14134)].
 
-1. **Online Sorting and Translational Packing of Convex Polygons**. Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist. 
+1. **Online Sorting and Translational Packing of Convex Polygons**. Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist. \
 **SODA 2023**.
-[arXiv](https://arxiv.org/abs/2112.03791).
+[[arXiv](https://arxiv.org/abs/2112.03791)].
 
-1. **Better Sum Estimation via Weighted Sampling**. Lorenzo Beretta and Jakub Tetek.
-**SODA 2022**. Best Student Paper Award.
-[arXiv](https://arxiv.org/abs/2110.14948).
+1. **Better Sum Estimation via Weighted Sampling**. Lorenzo Beretta and Jakub Tetek.\
+**SODA 2022**. <span style="color:green"> **Best Student Paper Award**.</span> **TALG special issue.**
+[[arXiv](https://arxiv.org/abs/2110.14948)].
 
-1. **Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. 
+1. **Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. \
 **SoCG 2021**.
-[arXiv](https://arxiv.org/abs/2101.09024).
+[[arXiv](https://arxiv.org/abs/2101.09024)].
 
 1. **An Optimal Algorithm to Find Champions of Tournament Graphs**. Lorenzo Beretta, Franco Maria
-Nardini, Roberto Trani and Rossano Venturini. IEEE Transactions on Knowledge and Data Engineering 
-(**TKDE**). [arXiv](https://arxiv.org/abs/2111.13621).
+Nardini, Roberto Trani and Rossano Venturini. \
+**TKDE** (IEEE Transactions on Knowledge and Data Engineering). [[arXiv](https://arxiv.org/abs/2111.13621)].
 
 # Miscellanea
 
