@@ -6,17 +6,17 @@ layout: default
 
 <img src="figures/titicaca_lake.jpg" align="right" width="40%" hspace="30" vspace="0" alt="be balanced" />
 
-Hi! I am Lorenzo and I am a fourth-year PhD student at [BARC](https://barc.ku.dk/), University of Copenhagen.
-I am fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/) 
+Hi! I am Lorenzo and I just graduated from [BARC](https://barc.ku.dk/), University of Copenhagen, where I was fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/) 
 and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen).
+I am currently a postdoc at University of California, Santa Cruz hosted by [Evangelos Chatziafratis](https://cs.stanford.edu/~vaggos/).
 
-I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms 
-and algorithms for (geo)metric problems.
-
-### **I'm looking for a postdoc position!** Please, reach out if you'd like to hire me([Full CV](pdfs/CV.pdf)).
+I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms, approximation algorithms 
+and algorithms for (geo)metric problems ([Full CV](pdfs/CV.pdf)).
 
 
 # Papers
+1. **Online sorting and online TSP: randomized, stochastic, and high-dimensional** 	Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Østergaard Klausen and László Kozma.
+
 1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
 Aviad Rubinstein. \
 **STOC 2024**.
