@@ -15,7 +15,7 @@ and algorithms for (geo)metric problems ([Full CV](pdfs/CV.pdf)).
 
 
 # Papers
-1. **Online sorting and online TSP: randomized, stochastic, and high-dimensional**. 	Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Østergaard Klausen and László Kozma. \
+1. **Online sorting and online TSP: randomized, stochastic, and high-dimensional**. 	Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma. \
 **ESA 2024**
 
 1. **Approximate Earth Mover's Distance in Truly-Subquadratic Time**. Lorenzo Beretta and
