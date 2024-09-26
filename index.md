@@ -15,6 +15,10 @@ and algorithms for (geo)metric problems ([Full CV](pdfs/CV.pdf)).
 
 
 # Papers
+1. **Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**. 	Marco Miani, Lorenzo Beretta, Søren Hauberg. \
+**NeurIPS 2024**.
+[[arXiv](https://arxiv.org/abs/2409.15008)].
+
 1. **Online sorting and online TSP: randomized, stochastic, and high-dimensional**. 	Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma. \
 **ESA 2024**.
 [[arXiv](https://arxiv.org/abs/2406.19257)].
