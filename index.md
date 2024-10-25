@@ -31,7 +31,7 @@ Aviad Rubinstein. \
 
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.\
 **NeurIPS 2023**.
-[[arXiv](https://arxiv.org/abs/2309.16384)].
+[[arXiv](https://arxiv.org/abs/2309.16384)]
 [[Code](https://github.com/lorenzo2beretta/multi-swap-k-means-pp)].
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
