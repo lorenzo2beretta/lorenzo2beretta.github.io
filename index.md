@@ -18,6 +18,7 @@ and algorithms for (geo)metric problems ([Full CV](pdfs/CV.pdf)).
 1. **Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**. 	Marco Miani, Lorenzo Beretta, Søren Hauberg. \
 **NeurIPS 2024**.
 [[arXiv](https://arxiv.org/abs/2409.15008)].
+[[Code](https://github.com/IlMioFrizzantinoAmabile/uncertainty_quantification)].
 
 1. **Online sorting and online TSP: randomized, stochastic, and high-dimensional**. 	Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma. \
 **ESA 2024**.
@@ -31,6 +32,7 @@ Aviad Rubinstein. \
 1. **Multi-Swap k-Means++**. Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.\
 **NeurIPS 2023**.
 [[arXiv](https://arxiv.org/abs/2309.16384)].
+[[Code](https://github.com/lorenzo2beretta/multi-swap-k-means-pp)].
 
 1. **Locally Uniform Hashing**. Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
 and Mikkel Thorup. \
