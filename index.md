@@ -44,7 +44,7 @@ and Mikkel Thorup. \
 [[arXiv](https://arxiv.org/abs/2112.03791)].
 
 1. **Better Sum Estimation via Weighted Sampling**. Lorenzo Beretta and Jakub Tetek.\
-**SODA 2022**. <span style="color:green"> **Best Student Paper Award**.</span> **TALG special issue.**
+**SODA 2022**. <span style="color:green"> **Best Student Paper Award**. **TALG special issue.**</span>
 [[arXiv](https://arxiv.org/abs/2110.14948)].
 
 1. **Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. \
