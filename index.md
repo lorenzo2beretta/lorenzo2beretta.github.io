@@ -5,7 +5,7 @@ layout: default
 # Lorenzo Beretta
 
 ![Email](figures/email_picture.jpg)
-![Picture](figures/academic_lorenzo.jpg){: width="250" }
+![Picture](figures/academic_lorenzo.jpg){: width="100" }
 <!-- <img src="figures/academic_lorenzo.jpg" align="right" width="20%" hspace="30" vspace="0" alt="be balanced" /> -->
 
 
