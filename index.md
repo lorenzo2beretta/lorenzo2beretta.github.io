@@ -16,8 +16,8 @@ During my PhD, I visited [Aviad Rubinstein](https://cs.stanford.edu/~aviad/) at 
 
 # Research Interests
 
-I am broadly interested in Theoretical Computer Science, with a particular emphasis on sublinear algorithms, approximation algorithms 
-and algorithms for (geo)metric problems ([Full CV](pdfs/CV.pdf)).
+I am interested in the design and analysis of algorithms for massive datasets, including sublinear algorithms, approximation algorithms 
+and algorithms for geometric problems.
 
 
 # Papers
