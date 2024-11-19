@@ -22,7 +22,8 @@ and algorithms for geometric problems.
 
 
 # Papers
-**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**. 	Marco Miani, Lorenzo Beretta, Søren Hauberg. \
+**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**. 	\
+Marco Miani, Lorenzo Beretta, Søren Hauberg. \
 **NeurIPS 2024**.
 [[arXiv](https://arxiv.org/abs/2409.15008)]
 [[Code](https://github.com/IlMioFrizzantinoAmabile/uncertainty_quantification)].
