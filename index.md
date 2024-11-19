@@ -50,9 +50,10 @@ Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist \
 
 - [**Better Sum Estimation via Weighted Sampling**](https://arxiv.org/abs/2110.14948) \
 Lorenzo Beretta and Jakub Tetek \
-**SODA 2022** <span style="color:red"> **Best Student Paper Award**. **TALG special issue.**</span>
+**SODA 2022** \
+<span style="color:green"> **Best Student Paper Award** and **TALG special issue**</span>
 
-- [**Online Packing to Minimize Area or Perimeter**](https://arxiv.org/abs/2101.09024) \ 
+- [**Online Packing to Minimize Area or Perimeter**](https://arxiv.org/abs/2101.09024)  \
 Mikkel Abrahamsen and Lorenzo Beretta \
 **SoCG 2021**
 
