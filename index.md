@@ -6,7 +6,7 @@ layout: default
 
 ![Email](figures/email_picture.jpg)
 
-![Picture](figures/academic_lorenzo.jpg){: width="150%" }
+![Picture](figures/academic_lorenzo.jpg)
 <!-- <img src="figures/academic_lorenzo.jpg" align="right" width="20%" hspace="30" vspace="0" alt="be balanced" /> -->
 
 
