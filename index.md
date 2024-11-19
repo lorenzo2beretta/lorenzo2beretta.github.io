@@ -6,7 +6,6 @@ layout: default
 
 ![Email](figures/email_picture.jpg)
 
-<!-- ![Picture](figures/academic_lorenzo.jpg) -->
 <img src="figures/academic_lorenzo.jpg" align="right" width="35%" hspace="30" vspace="0" alt="be balanced" />
 
 
@@ -23,48 +22,40 @@ and algorithms for geometric problems.
 
 # Papers
 - [**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**](https://arxiv.org/abs/2409.15008) 	\
-Marco Miani, Lorenzo Beretta, Søren Hauberg. \
+Marco Miani, Lorenzo Beretta, Søren Hauberg \
 **NeurIPS 2024**
 [[Code](https://github.com/IlMioFrizzantinoAmabile/uncertainty_quantification)]
 
-- **Online sorting and online TSP: randomized, stochastic, and high-dimensional**. 	\
-Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma. \
+- [**Online sorting and online TSP: randomized, stochastic, and high-dimensional**](https://arxiv.org/abs/2406.19257) 	\
+Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma \
 **ESA 2024**.
-[[arXiv](https://arxiv.org/abs/2406.19257)].
 
-**Approximate Earth Mover's Distance in Truly-Subquadratic Time**. \
-Lorenzo Beretta and
-Aviad Rubinstein. \
-**STOC 2024**.
-[[arXiv](https://arxiv.org/abs/2310.19514)].
+- [**Approximate Earth Mover's Distance in Truly-Subquadratic Time**](https://arxiv.org/abs/2310.19514)\
+Lorenzo Beretta and Aviad Rubinstein \
+**STOC 2024**
 
-**Multi-Swap k-Means++**. \
-Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.\
-**NeurIPS 2023**.
-[[arXiv](https://arxiv.org/abs/2309.16384)]
-[[Code](https://github.com/lorenzo2beretta/multi-swap-k-means-pp)].
+- [**Multi-Swap k-Means++**](https://arxiv.org/abs/2309.16384) \
+Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis \
+**NeurIPS 2023**
+[[Code](https://github.com/lorenzo2beretta/multi-swap-k-means-pp)]
 
-**Locally Uniform Hashing**. \
-Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen
-and Mikkel Thorup. \
-**FOCS 2023**.
-[[arXiv](https://arxiv.org/abs/2308.14134)].
+- [**Locally Uniform Hashing**](https://arxiv.org/abs/2308.14134) \
+Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen and Mikkel Thorup \
+**FOCS 2023**
 
-**Online Sorting and Translational Packing of Convex Polygons**. \
-Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist. \
-**SODA 2023**.
-[[arXiv](https://arxiv.org/abs/2112.03791)].
+- [**Online Sorting and Translational Packing of Convex Polygons**](https://arxiv.org/abs/2112.03791) \
+Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist \
+**SODA 2023**
 
-**Better Sum Estimation via Weighted Sampling**. \
-Lorenzo Beretta and Jakub Tetek.\
-**SODA 2022**. <span style="color:green"> **Best Student Paper Award**. **TALG special issue.**</span>
-[[arXiv](https://arxiv.org/abs/2110.14948)].
 
-**Online Packing to Minimize Area or Perimeter**. Mikkel Abrahamsen and Lorenzo Beretta. \
-**SoCG 2021**.
-[[arXiv](https://arxiv.org/abs/2101.09024)].
+- [**Better Sum Estimation via Weighted Sampling**](https://arxiv.org/abs/2110.14948) \
+Lorenzo Beretta and Jakub Tetek \
+**SODA 2022** <span style="color:red"> **Best Student Paper Award**. **TALG special issue.**</span>
 
-**An Optimal Algorithm to Find Champions of Tournament Graphs**. \
-Lorenzo Beretta, Franco Maria
-Nardini, Roberto Trani and Rossano Venturini. \
-**TKDE** (IEEE Transactions on Knowledge and Data Engineering). [[arXiv](https://arxiv.org/abs/2111.13621)].
+- [**Online Packing to Minimize Area or Perimeter**](https://arxiv.org/abs/2101.09024) \ 
+Mikkel Abrahamsen and Lorenzo Beretta \
+**SoCG 2021**
+
+- [**An Optimal Algorithm to Find Champions of Tournament Graphs**](https://arxiv.org/abs/2111.13621) \
+Lorenzo Beretta, Franco Maria Nardini, Roberto Trani and Rossano Venturini \
+**TKDE** (IEEE Transactions on Knowledge and Data Engineering) 
