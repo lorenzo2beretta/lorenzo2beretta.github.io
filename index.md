@@ -7,7 +7,7 @@ layout: default
 ![Email](figures/email_picture.jpg)
 
 <!-- ![Picture](figures/academic_lorenzo.jpg) -->
-<img src="figures/academic_lorenzo.jpg" align="right" width="30%" hspace="30" vspace="0" alt="be balanced" />
+<img src="figures/academic_lorenzo.jpg" align="right" width="35%" hspace="30" vspace="0" alt="be balanced" />
 
 
 Hi! I am Lorenzo and I am currently a postdoc at University of California, Santa Cruz hosted by [Evangelos Chatziafratis](https://cs.stanford.edu/~vaggos/).
