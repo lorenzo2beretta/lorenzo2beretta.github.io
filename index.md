@@ -9,7 +9,7 @@ layout: default
 <img src="figures/academic_lorenzo.jpg" align="right" width="35%" hspace="30" vspace="0" alt="be balanced" />
 
 
-Hi! I am Lorenzo and I am currently a postdoc at University of California, Santa Cruz hosted by [Evangelos Chatziafratis](https://cs.stanford.edu/~vaggos/).
+Hi! I am Lorenzo and I am currently a postdoc at University of California, Santa Cruz hosted by [Vaggos Chatziafratis](https://cs.stanford.edu/~vaggos/).
 I recently graduated from [BARC](https://barc.ku.dk/), University of Copenhagen, where I was fortunate to be advised by [Mikkel Thorup](http://hjemmesider.diku.dk/~mthorup/) 
 and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen).
 During my PhD, I visited [Aviad Rubinstein](https://cs.stanford.edu/~aviad/) at Stanford and I interned at Google Research, where I worked with [Vincent Cohen-Addad](https://www.di.ens.fr/~vcohen/), [Silvio Lattanzi](https://sites.google.com/site/silviolattanzi/) and [Nikos Parotsidis](https://sites.google.com/view/nikosparotsidis).
