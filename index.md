@@ -29,6 +29,7 @@ Marco Miani, Lorenzo Beretta, Søren Hauberg \
 - [**Online sorting and online TSP: randomized, stochastic, and high-dimensional**](https://arxiv.org/abs/2406.19257) 	\
 Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma \
 **ESA 2024**.
+Presented at HALG 2025.
 
 - [**Approximate Earth Mover's Distance in Truly-Subquadratic Time**](https://arxiv.org/abs/2310.19514)\
 Lorenzo Beretta and Aviad Rubinstein \
