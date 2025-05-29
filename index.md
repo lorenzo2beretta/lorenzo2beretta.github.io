@@ -21,7 +21,7 @@ and algorithms for geometric problems.
 
 
 # Papers
-- [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**]() 	\
+- [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**](pdfs/Closest_Pair_for_Subquadratic_EMD.pdf) 	\
 Lorenzo Beretta, vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \
 
 - [**Testing Juntas Optimally with Samples**](https://arxiv.org/abs/2505.04604) 	\
