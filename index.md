@@ -22,13 +22,13 @@ and algorithms for geometric problems.
 
 # Papers
 - [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**](pdfs/Closest_Pair_for_Subquadratic_EMD.pdf) 	\
-Lorenzo Beretta, vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \
+Lorenzo Beretta, vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten 
 
 - [**Testing Juntas Optimally with Samples**](https://arxiv.org/abs/2505.04604) 	\
-Lorenzo Beretta, Nathaniel Harms, Caleb Koch \
+Lorenzo Beretta, Nathaniel Harms, Caleb Koch 
 
 - [**New Statistical and Computational Results for Learning Junta Distributions**](https://arxiv.org/abs/2505.05819) 	\
-Lorenzo Beretta\
+Lorenzo Beretta
 
 - [**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**](https://arxiv.org/abs/2409.15008) 	\
 Marco Miani, Lorenzo Beretta, Søren Hauberg \
