@@ -14,6 +14,8 @@ I recently graduated from [BARC](https://barc.ku.dk/), University of Copenhagen,
 and [Mikkel Abrahamsen](https://sites.google.com/view/mikkel-abrahamsen).
 During my PhD, I visited [Aviad Rubinstein](https://cs.stanford.edu/~aviad/) at Stanford and I interned at Google Research, where I worked with [Vincent Cohen-Addad](https://www.di.ens.fr/~vcohen/), [Silvio Lattanzi](https://sites.google.com/site/silviolattanzi/) and [Nikos Parotsidis](https://sites.google.com/view/nikosparotsidis).
 
+Here is my [CV](pdfs/CV.pdf).
+
 # Research Interests
 
 I am interested in the design and analysis of algorithms for massive datasets, including sublinear algorithms, approximation algorithms 
