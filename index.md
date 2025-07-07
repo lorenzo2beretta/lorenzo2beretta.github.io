@@ -31,6 +31,7 @@ Lorenzo Beretta, Nathaniel Harms, Caleb Koch
 
 - [**New Statistical and Computational Results for Learning Junta Distributions**](https://arxiv.org/abs/2505.05819) 	\
 Lorenzo Beretta
+**Random 2025**
 
 - [**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**](https://arxiv.org/abs/2409.15008) 	\
 Marco Miani, Lorenzo Beretta, Søren Hauberg \
