@@ -31,11 +31,11 @@ Lorenzo Beretta, Deeparnab Chakrabarty, C. Seshadhri
 Lorenzo Beretta, Nathaniel Harms, Caleb Koch 
 
 - [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**](pdfs/Closest_Pair_for_Subquadratic_EMD.pdf) 	\
-Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten
+Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \
 **FOCS 2025**
 
 - [**New Statistical and Computational Results for Learning Junta Distributions**](https://arxiv.org/abs/2505.05819) 	\
-Lorenzo Beretta
+Lorenzo Beretta \
 **RANDOM 2025**
 
 - [**Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information**](https://arxiv.org/abs/2409.15008) 	\
