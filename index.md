@@ -23,11 +23,16 @@ and algorithms for geometric problems.
 
 
 # Papers
-- [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**](pdfs/Closest_Pair_for_Subquadratic_EMD.pdf) 	\
-Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten
+
+- [**Faster Estimation of the Average Degree of a Graph Using Random Edges and Structural Queries**](https://arxiv.org/abs/2507.06925) 	\
+Lorenzo Beretta, Deeparnab Chakrabarty, C. Seshadhri
 
 - [**Testing Juntas Optimally with Samples**](https://arxiv.org/abs/2505.04604) 	\
 Lorenzo Beretta, Nathaniel Harms, Caleb Koch 
+
+- [**Approximating High-Dimensional Earth Mover’s Distance as Fast as Closest Pair**](pdfs/Closest_Pair_for_Subquadratic_EMD.pdf) 	\
+Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten
+**FOCS 2025**
 
 - [**New Statistical and Computational Results for Learning Junta Distributions**](https://arxiv.org/abs/2505.05819) 	\
 Lorenzo Beretta
