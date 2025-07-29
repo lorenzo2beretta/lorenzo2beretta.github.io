@@ -13,7 +13,7 @@
 
   <body>
 
-    <h1>Lorenzo Beretta</h1>
+    <h1 id="top">Lorenzo Beretta</h1>
     <br>
 
     <div>
@@ -30,7 +30,7 @@
 
       <p>
         I am a theoretical computer scientist and I study algorithms for massive datasets. 
-        My work focuses on sublinear algorithms, property testing, and high-dimensional computational geometry.
+        My work focuses on sublinear algorithms and high-dimensional geometry.
       </p>
 
       <p>
@@ -39,116 +39,77 @@
           [firstname]2[lastname]@gmail.com
         </tt>
       </p>
+      <p>
+        <a href="https://dblp.org/pid/34/8239-1" target="_blank" rel="noopener noreferrer" class="link-badge">dblp</a>
+         <a href="https://scholar.google.com/citations?user=iX8ZxJEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="link-badge">Google Scholar</a>
+         <a href="cv/main.pdf" target="_blank" rel="noopener noreferrer" class="link-badge">CV</a>  
+      </p>
+    
 
-      <br>
+      <!-- <br> -->
 
-    </div>
+    <!-- </div> -->
 
 
-    <h2>Publications</h2>
-
+    <h2>Research</h2>
+    <b>Sublinear Algorithms</b> 
     <p>
-    See also: [<a href="https://dblp.org/pid/34/8239-1" target="_blank" rel="noopener noreferrer">dblp</a>] and [<a href="https://scholar.google.com/citations?user=iX8ZxJEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>]     
+      Numerous algorithmic innovations in data science stem from the observation that certain tasks can be approximately solved by algorithms that observe or store only 
+      a small fraction of the input, so-called sublinear algorithms. My coauthors and I have developed sublinear algorithms for estimating 
+      <a href="#BT22">normalization constants</a>, 
+      <a href="#BCCS25">counting the number of edges in a graph</a>, and 
+      <a href="#BHK25">testing whether a function depends only on a few relevant features</a>.
     </p>
 
-    <ol class="papers">
+    <b>High-dimensional Geometry</b>
+    <p>
+      Several data science tasks involve solving geometric problems over datapoints embedded in high-dimensional spaces. However, the fastest known algorithms 
+      for many such problems often run in time exponential in the dimension, reflecting the so-called <em>curse of dimensionality</em>. For instance, computing Optimal Transport or 
+      Earth Mover’s Distance (EMD) typically requires time quadratic in the input size or exponential in the dimension. To address this, my coauthors and I developed a 
+      <a href="#BCJW25">sub-quadratic time approximation scheme for EMD</a> in high dimensions by reducing it to the Closest Pair problem, for which fast algorithms are known.
+    </p>
+
+    <h2>Selected Publications</h2>
+        
+    <ul class="papers">
 
       <li id="BCCS25">
         <em>Faster Estimation of the Average Degree of a Graph Using Random Edges and Structural Queries</em>
         <br>
         Lorenzo Beretta, Deeparnab Chakrabarty, C. Seshadhri.
-        <br>
-        [<a href="https://arxiv.org/abs/2507.06925" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <a href="https://arxiv.org/abs/2507.06925" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
       </li>
 
       <li id="BHK25">
         <em>Feature Selection and Junta Testing are Statistically Equivalent</em>
         <br>
         Lorenzo Beretta, Nathaniel Harms, Caleb Koch.
-        <br>
-        [<a href="https://arxiv.org/abs/2505.04604" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <a href="https://arxiv.org/abs/2505.04604" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
       </li>
 
       <li id="BCJW25">
         <em>Approximating High-Dimensional Earth Mover's Distance as Fast as Closest Pair</em>
         <br>
         Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten.
-        <br>
-        <b>FOCS 2025</b>
-        <br>
-        [<a href="pdfs/Closest_Pair_for_Subquadratic_EMD.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]
-      </li>
-
-      <li id="Beretta25">
-        <em>New Statistical and Computational Results for Learning Junta Distributions</em>
-        <br>
-        Lorenzo Beretta.
-        <br>
-        <b>RANDOM 2025</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2505.05819" target="_blank" rel="noopener noreferrer">arXiv</a>]
-      </li>
-
-      <li id="MBH24">
-        <em>Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information</em>
-        <br>
-        Marco Miani, Lorenzo Beretta, Søren Hauberg.
-        <br>
-        <b>NeurIPS 2024</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2409.15008" target="_blank" rel="noopener noreferrer">arXiv</a>]
-        [<a href="https://github.com/IlMioFrizzantinoAmabile/uncertainty_quantification" target="_blank" rel="noopener noreferrer">Code</a>]
-      </li>
-
-      <li id="ABBBK24">
-        <em>Online sorting and online TSP: randomized, stochastic, and high-dimensional</em>
-        <br>
-        Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma.
-        <br>
-        <b>ESA 2024</b>. Presented at <b>HALG 2025</b>.
-        <br>
-        [<a href="https://arxiv.org/abs/2406.19257" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <span class="conference-badge">FOCS 2025</span>
+          <a href="pdfs/Closest_Pair_for_Subquadratic_EMD.pdf" target="_blank" rel="noopener noreferrer" class="link-badge">PDF</a>
+        </div>
       </li>
 
       <li id="BR24">
         <em>Approximate Earth Mover's Distance in Truly-Subquadratic Time</em>
         <br>
         Lorenzo Beretta and Aviad Rubinstein.
-        <br>
-        <b>STOC 2024</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2310.19514" target="_blank" rel="noopener noreferrer">arXiv</a>]
-      </li>
-
-      <li id="BCLP23">
-        <em>Multi-Swap k-Means++</em>
-        <br>
-        Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
-        <br>
-        <b>NeurIPS 2023</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2309.16384" target="_blank" rel="noopener noreferrer">arXiv</a>]
-        [<a href="https://github.com/lorenzo2beretta/multi-swap-k-means-pp" target="_blank" rel="noopener noreferrer">Code</a>]
-      </li>
-
-      <li id="BBKTH23">
-        <em>Locally Uniform Hashing</em>
-        <br>
-        Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen and Mikkel Thorup.
-        <br>
-        <b>FOCS 2023</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2308.14134" target="_blank" rel="noopener noreferrer">arXiv</a>]
-      </li>
-
-      <li id="AABK23">
-        <em>Online Sorting and Translational Packing of Convex Polygons</em>
-        <br>
-        Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist.
-        <br>
-        <b>SODA 2023</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2112.03791" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <span class="conference-badge">STOC 2024</span>
+          <a href="https://arxiv.org/abs/2310.19514" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+          <a href="https://www.youtube.com/watch?v=2mXyl1fqwLA&list=PL2200vk1q4pnoZJZphNyvIFzB3UnUZEmj&index=8" target="_blank" rel="noopener noreferrer" class="link-badge"> Video (20 min)</a>
+        </div>
       </li>
 
       <li id="BT22">
@@ -156,38 +117,109 @@
         <br>
         Lorenzo Beretta and Jakub Tetek.
         <br>
-        <b>SODA 2022</b>, <b><span style="color:green">Best Student Paper Award</span></b>, <b>Invited to HALG 2022</b> and <b>TALG special issue</b>.
+        <b><span style="color:green">Best Student Paper Award</span></b>. Invited to <b>HALG 2022</b> and <b>TALG special issue</b>.
+        <div class="badge-row">
+          <span class="conference-badge">SODA 2022</span>
+          <a href="https://arxiv.org/abs/2110.14948" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
+      </li>
+
+    </ul>
+    
+
+    <h2>More Publications</h2>
+
+    <ul class="papers">
+
+      <li id="Beretta25">
+        <em>New Statistical and Computational Results for Learning Junta Distributions</em>
         <br>
-        [<a href="https://arxiv.org/abs/2110.14948" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        Lorenzo Beretta.
+        <div class="badge-row">
+          <span class="conference-badge">RANDOM 2025</span>
+          <a href="https://arxiv.org/abs/2505.05819" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
+      </li>
+
+      <li id="MBH24">
+        <em>Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information</em>
+        <br>
+        Marco Miani, Lorenzo Beretta, Søren Hauberg.
+        <div class="badge-row">
+          <span class="conference-badge">NeurIPS 2024</span>
+          <a href="https://arxiv.org/abs/2409.15008" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+          <a href="https://github.com/IlMioFrizzantinoAmabile/uncertainty_quantification" target="_blank" rel="noopener noreferrer" class="link-badge">Code</a>
+        </div>
+      </li>
+
+      <li id="ABBBK24">
+        <em>Online sorting and online TSP: randomized, stochastic, and high-dimensional</em>
+        <br>
+        Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma.
+        <div class="badge-row">
+          <span class="conference-badge">ESA 2024</span>
+          <a href="https://arxiv.org/abs/2406.19257" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
+      </li>
+
+      <li id="BCLP23">
+        <em>Multi-Swap k-Means++</em>
+        <br>
+        Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi and Nikos Parotsidis.
+        <div class="badge-row">
+          <span class="conference-badge">NeurIPS 2023</span>
+          <a href="https://arxiv.org/abs/2309.16384" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+          <a href="https://github.com/lorenzo2beretta/multi-swap-k-means-pp" target="_blank" rel="noopener noreferrer" class="link-badge">Code</a>
+        </div>
+      </li>
+
+      <li id="BBKTH23">
+        <em>Locally Uniform Hashing</em>
+        <br>
+        Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen and Mikkel Thorup.
+        <div class="badge-row">
+          <span class="conference-badge">FOCS 2023</span>
+          <a href="https://arxiv.org/abs/2308.14134" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
+      </li>
+
+      <li id="AABK23">
+        <em>Online Sorting and Translational Packing of Convex Polygons</em>
+        <br>
+        Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta and Linda Kleist.
+        <div class="badge-row">
+          <span class="conference-badge">SODA 2023</span>
+          <a href="https://arxiv.org/abs/2112.03791" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
       </li>
 
       <li id="AB21">
         <em>Online Packing to Minimize Area or Perimeter</em>
         <br>
         Mikkel Abrahamsen and Lorenzo Beretta.
-        <br>
-        <b>SoCG 2021</b>
-        <br>
-        [<a href="https://arxiv.org/abs/2101.09024" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <span class="conference-badge">SoCG 2021</span>
+          <a href="https://arxiv.org/abs/2101.09024" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
       </li>
 
       <li id="BNTV">
         <em>An Optimal Algorithm to Find Champions of Tournament Graphs</em>
         <br>
         Lorenzo Beretta, Franco Maria Nardini, Roberto Trani and Rossano Venturini.
-        <br>
-        <b>TKDE</b> (IEEE Transactions on Knowledge and Data Engineering).
-        <br>
-        [<a href="https://arxiv.org/abs/2111.13621" target="_blank" rel="noopener noreferrer">arXiv</a>]
+        <div class="badge-row">
+          <span class="conference-badge">TKDE</span>
+          <a href="https://arxiv.org/abs/2111.13621" target="_blank" rel="noopener noreferrer" class="link-badge">arXiv</a>
+        </div>
       </li>
 
-    </ol>
+    </ul>
 
     <hr>
 
-    <small>
+    <!-- <small>
       (Website updated: July 2025)
-    </small>
+    </small> -->
 
   </body>
 </html>

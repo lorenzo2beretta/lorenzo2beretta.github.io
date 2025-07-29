@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[paper=a4,fontsize=10pt]{scrartcl} % KOMA-article class
+			
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage[margin=.6in]{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+\usepackage{hyperref}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill %
+		%\textit{
+		#1%}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+		
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{White}{%
+			\parbox{10em}{%
+			\hfill\color{Black}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+\MyName{Lorenzo Beretta}
+\begin{flushright}
+\texttt{Webpage: \href{http://lorenzo2beretta.github.io}{lorenzo2beretta.github.io}} \\
+\texttt{E-mail: lorenzo2beretta@gmail.com} 
+% \\
+% \texttt{DBLP: \href{https://dblp.org/pid/34/8239-1.html}{dblp.org/pid/34/8239-1.html}}
+\end{flushright}
+%%% Education
+%%% ------------------------------------------------------------
+
+\NewPart{Research Interests}
+My research focuses on designing and analyzing efficient algorithms for problems arising in data science.
+I am particularly interested in sublinear algorithms and high-dimensional geometric problems.  
+
+\NewPart{Employment}{}
+
+\EducationEntry{PostDoc at University of California, Santa Cruz}{Sep 2024 -- Sep 2025}{Host: Vaggos Chatziafratis.}{}
+\EducationEntry{Goldstine Fellow at IBM, Cambridge}{Sep 2025 -- Sep 2026}{Host: Kenneth Clarkson.}{}
+
+\NewPart{Education}{}
+
+\EducationEntry{Ph.D. Basic Algorithm Research Copenhagen, University of Copenhagen}{Oct 2020 --  Apr 2024}{Supervisors: Mikkel Thorup \& Mikkel Abrahamsen.}{}
+
+\EducationEntry{Scuola Normale Superiore (Honors Program)}{}{During my 5-year B.S. and M.S, I took an additional 2-year workload of math and physics courses as part of this honors program.}{}
+
+\EducationEntry{M.S. Computer Science, University of Pisa}{Sep 2018 --  Oct 2020}{Grade 110/110 cum Laude.}{}
+
+\EducationEntry{B.S. Mathematics, University of Pisa}{Sep 2015 -- Oct 2018}{Grade 110/110 cum Laude.}
+
+
+\NewPart{Awards}{}
+
+\EducationEntry{Goldstine Postdoctoral Fellowship at IBM}{}{}{}
+
+\EducationEntry{SODA Best Student Paper Award}{}{The paper ``Better Sum Estimation via Weighted Sampling'' was awarded a best student paper award at SODA 2022, it was invited to HALG 2022 and TALG special issue.}{}
+
+\EducationEntry{EU TALENT Doctoral Fellowship Grant}{}{I was granted a PhD fellowship by the Horizon 2020 Marie Skłodowska-Curie program (grant n. 801199).}{}
+
+\EducationEntry{Scuola Normale Superiore: Undergraduate Honors Program}{}{I was admitted to Scuola Normale Superiore and Scuola Superiore Sant'Anna. Both programs are the top programs in Italy for math and engineering respectively and each admits about 15 students per year.}
+
+
+\NewPart{Published Papers}
+\begingroup
+\renewcommand{\section}[2]{}
+% \bibliographystyle{unsrt}
+% \bibliography{myReferences.bib}
+\begin{enumerate}
+    \item \textbf{Approximating High-Dimensional Earth Mover's Distance as Fast as Closest Pair}\\ 
+  Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \\
+    in \textbf{FOCS 2025} \textit{(Symposium on Foundations of Computer Science)}.
+    
+    \item \textbf{New Statistical and Computational Results for Learning Junta Distributions}\\ 
+  Lorenzo Beretta \\
+    in \textbf{RANDOM 2025} \textit{(International Conference on Randomization and Computation)}.
+    
+    \item \textbf{Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information}\\ 
+  Marco Miani, Lorenzo Beretta, Søren Hauberg \\
+    in \textbf{NeurIPS 2024} \textit{(Advances in Neural Information Processing Systems)}.
+
+    \item \textbf{Online sorting and online TSP: randomized, stochastic, and high-dimensional}\\ 
+    Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma \\
+    in \textbf{ESA 2024} \textit{(European Symposium on Algorithms)}.\
+    Presented at \textbf{HALG 2025}.
+    
+    \item \textbf{Approximate Earth Mover's Distance in Truly-Subquadratic Time} \\ 
+    Lorenzo Beretta, Aviad Rubinstein \\
+    in \textbf{STOC 2024} \textit{(Symposium on Theory of Computing)}
+    
+    \item \textbf{Multi-Swap $k$-Means++} \\
+    Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi, Nikos Parotsidis \\
+    in \textbf{NeurIPS 2023} \textit{(Advances in Neural Information Processing Systems)}
+    
+    \item \textbf{Locally Uniform Hashing} \\
+    Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen, Mikkel Thorup \\
+    in \textbf{FOCS 2023} \textit{(Symposium on Foundations of Computer Science)}
+    
+    \item \textbf{Online Sorting and Translational Packing of Convex Polygons} \\
+    Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta, Linda Kleist \\
+    in \textbf{SODA 2023} \textit{(Symposium on Discrete Algorithms)}
+
+    \item \textbf{Better Sum Estimation via Weighted Sampling} \\
+    Lorenzo Beretta, Jakub Tetek \\ 
+    in \textbf{SODA 2022} \textit{(Symposium on Discrete Algorithms)} and \textbf{TALG} \textit{(Transactions on Algorithms)}\\
+    \textbf{Best Student Paper Award} \\     \textbf{Invited to HALG 2022 and TALG special issue}
+    \label{paper:soda 2022}
+    
+    \item \textbf{Online Packing to Minimize Area or Perimeter} \\
+    Mikkel Abrahamsen, Lorenzo Beretta 
+    \\
+    in \textbf{SoCG 2021} \textit{(International Symposium on Computational Geometry)}
+    
+    \item \textbf{An Optimal Algorithm to Find Champions of Tournament Graphs} \\
+    Lorenzo Beretta, Franco Maria Nardini, Roberto Trani, Rossano Venturini \\
+    in \textbf{TKDE} \textit{(IEEE Transactions on Knowledge and Data Engineering)} \\ 
+\end{enumerate}
+\nocite{*}
+\endgroup
+
+\NewPart{Work in Progress}
+The following manuscripts are in preparation.
+\begin{itemize}
+    \item \textbf{Tight Bounds on Testing Juntas with Samples} \\
+Lorenzo Beretta, Caleb Koch, Nathaniel Harms
+
+\item \textbf{Subquadratic Earth Mover's Distance via Offline Nearest Neighbor} \\
+Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten
+\end{itemize}
+
+\NewPart{Internships}{}
+
+\EducationEntry{Stanford University}{Feb 2023 -- Aug 2023}{I worked with Aviad Rubinstein on sublinear-time matching algorithms.}{}
+
+
+\EducationEntry{Google Research}{Oct 2022 -- Dec 2022}{I worked on designing, analyzing and implementing clustering algorithms.}{}
+
+\EducationEntry{Quantitative Investment Internship, Société Générale}{Aug 2019 -- Oct 2019}{I worked on implementing efficient algorithms for ``optimal intraday execution''.}{}
+
+
+\NewPart{Academic Service}{}
+
+\EducationEntry{Conference Review}{}{ESA (2022, 2023, 2024), ITCS (2024), SOSA (2024), FOCS (2023), SWAT(2024), STOC (2025) ICALP (2025) ISAAC (2024) NeurIPS (2025)}{}
+
+\EducationEntry{Journal Review}{}{Journal of Computational Geometry (JoCG)}{}
+
+\NewPart{Teaching and Leadership}
+\EducationEntry{Teaching Assistant, Copenhagen University}{2021 -- 2022}{I served as a T.A. in the ``Randomized Algorithm'' graduate course at Copenhagen University for two quarters.}{}
+
+\EducationEntry{Scout Leader Volunteer}{Sep 2017 -- Aug 2020}{I volunteered as a Scout leader, managing  a troop of about 30 teenagers.}{}
+
+\EducationEntry{High School Teacher}{Sep 2017 -- May 2018}{I served as a support teacher at a local high school in Pisa.}{}
+
+\NewPart{Competitions}{}
+
+\EducationEntry{ACM ICPC Programming Contest: South-Western Europe Regional Contest}{2018}{Representing Scuola Normale Superiore, Bronze Medal, 10th place.}{}
+
+\EducationEntry{National Mathematics and Physics Olympiads}{2015}{Silver medal in Mathematics and Bronze medal in Physics.}{}
+
+\end{document}
