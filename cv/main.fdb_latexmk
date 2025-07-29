@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1753791224 "/Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/cv/main.tex" "main.pdf" "main" 1753791224 0
-  "/Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/cv/main.tex" 1753791223 10186 9810ebd0fb8bcc0be2366b6adbc8f037 ""
+["pdflatex"] 1753794640 "/Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/main.tex" "main.pdf" "main" 1753794641 0
+  "/Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/main.tex" 1753794640 10182 12c634624031e592a7132b2957c36490 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -124,9 +124,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704809159 4670106 5b8a67045f7dcead964c0821e280d0b8 ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704809191 7883399 6538f868e3e8645e1017c18824ddd2da ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1753791224 790 03b21dd5420832255ed70cb503cdf456 "pdflatex"
-  "main.out" 1753791224 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1753791223 10186 9810ebd0fb8bcc0be2366b6adbc8f037 ""
+  "main.aux" 1753794641 786 cb835863a3e77c47e81854d8cbbc2e7f "pdflatex"
+  "main.out" 1753794641 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1753794640 10182 12c634624031e592a7132b2957c36490 ""
   (generated)
   "main.aux"
   "main.log"

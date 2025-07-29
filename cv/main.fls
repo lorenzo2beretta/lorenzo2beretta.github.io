@@ -1,8 +1,8 @@
-PWD /Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/cv
+PWD /Users/lorenzo/Documents/lorenzo2beretta.github.io/cv
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/cv/main.tex
+INPUT /Users/lorenzo/Documents/lorenzo2beretta.github.io/cv/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrartcl.cls
