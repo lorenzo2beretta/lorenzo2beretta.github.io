@@ -199,7 +199,6 @@ summary:hover {
     }
     
     .profile-image {
-        width: 200px;
         align-self: center;
     }
     
@@ -214,8 +213,8 @@ summary:hover {
     }
     
     .profile-section .profile-image {
-        width: 250px !important;
-        max-width: 250px !important;
+        width: 350px !important;
+        max-width: 350px !important;
         border: 3px solid red !important; /* Debug border to see if mobile styles are applied */
     }
     
