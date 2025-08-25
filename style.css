@@ -173,7 +173,6 @@ summary:hover {
     gap: 20px;
     align-items: flex-start;
     margin-bottom: 20px;
-    border: 2px solid blue; /* Debug border for profile section */
 }
 
 .profile-image {
@@ -182,7 +181,6 @@ summary:hover {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     flex-shrink: 0;
-    border: 2px solid green; /* Debug border for all screen sizes */
 }
 
 .profile-text {
@@ -218,8 +216,6 @@ summary:hover {
         width: 80vw !important;
         max-width: 80vw !important;
         height: auto !important;
-        border: 3px solid red !important; /* Debug border to see if mobile styles are applied */
-        background-color: yellow !important; /* Additional debug to see if styles are applied */
     }
     
     h1 {
