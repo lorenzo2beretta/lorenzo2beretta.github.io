@@ -1,5 +1,9 @@
 /* Basic styling for academic personal website */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
@@ -8,6 +12,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #fafafa;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -28,8 +33,11 @@ h2 {
 p {
     margin-bottom: 15px;
     text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
+/* General image styling - overridden by specific classes */
 img {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -159,14 +167,67 @@ summary:hover {
     color: #3498db;
 }
 
+/* Profile section styling */
+.profile-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex: 1;
+}
+
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     body {
         padding: 15px;
     }
     
-    img {
-        width: 100% !important;
-        height: auto !important;
+    .profile-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .profile-image {
+        width: 150px;
+        align-self: center;
+    }
+    
+    .profile-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .profile-image {
+        width: 120px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    .link-badge, .conference-badge {
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 5px;
     }
 } 
