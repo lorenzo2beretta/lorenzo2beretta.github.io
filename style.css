@@ -213,9 +213,11 @@ summary:hover {
     }
     
     .profile-section .profile-image {
-        width: 350px !important;
-        max-width: 350px !important;
+        width: 80vw !important;
+        max-width: 80vw !important;
+        height: auto !important;
         border: 3px solid red !important; /* Debug border to see if mobile styles are applied */
+        background-color: yellow !important; /* Additional debug to see if styles are applied */
     }
     
     h1 {
