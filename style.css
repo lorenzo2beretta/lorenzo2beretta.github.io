@@ -214,8 +214,8 @@ summary:hover {
     }
     
     .profile-section .profile-image {
-        width: 120px !important;
-        max-width: 120px !important;
+        width: 250px !important;
+        max-width: 250px !important;
         border: 3px solid red !important; /* Debug border to see if mobile styles are applied */
     }
     
