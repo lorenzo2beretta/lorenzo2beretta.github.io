@@ -213,8 +213,10 @@ summary:hover {
         padding: 10px;
     }
     
-    .profile-image {
-        width: 120px;
+    .profile-section .profile-image {
+        width: 120px !important;
+        max-width: 120px !important;
+        border: 3px solid red !important; /* Debug border to see if mobile styles are applied */
     }
     
     h1 {
