@@ -22,7 +22,7 @@
 % http://en.wikibooks.org/wiki/LaTeX
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[paper=a4,fontsize=10pt]{scrartcl} % KOMA-article class
+\documentclass[paper=a4,fontsize=11pt]{article} % Standard article class
 			
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -30,21 +30,32 @@
 \usepackage{amsmath,amsfonts,amsthm}     % Math packages
 \usepackage{graphicx}                    % Enable pdflatex
 \usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
-\usepackage[margin=.6in]{geometry}
-	\textheight=700px                    % Saving trees ;-)
+\usepackage[margin=.75in]{geometry}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
 
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
 
-%%% Custom sectioning (sectsty package)
+%%% Custom sectioning
 %%% ------------------------------------------------------------
-\usepackage{sectsty}
+\titleformat{\section}
+  {\Large\bfseries\color{DarkGray}}
+  {}
+  {0em}
+  {}
+  [\titlerule]
 
-\sectionfont{%			            % Change font of \section command
-	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
-	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+\titleformat{\subsection}
+  {\large\bfseries\color{DarkGray}}
+  {}
+  {0em}
+  {}
+
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 %%% Macros
 %%% ------------------------------------------------------------
@@ -53,16 +64,15 @@
 \newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
 
 \newcommand{\MyName}[1]{ % Name
-		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
-		\par \normalsize \normalfont}
+		{\Huge\bfseries\color{DarkGray}\centering #1\par}\vspace{0.5em}}
 		
-\newcommand{\MySlogan}[1]{ % Slogan (optional)
-		\large \usefont{OT1}{phv}{m}{n}\hfill %
-		%\textit{
-		#1%}
-		\par \normalsize \normalfont}
+\newcommand{\MyAffiliation}[1]{ % Affiliation
+		{\large\color{DarkGray}\centering #1\par}\vspace{0.3em}}
 
-\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+\newcommand{\MyContact}[1]{ % Contact info
+		{\normalsize\color{DarkGray}\centering #1\par}\vspace{1em}}
+
+\newcommand{\NewPart}[1]{\section{#1}}
 
 \newcommand{\PersonalEntry}[2]{
 		\noindent\hangindent=2em\hangafter=0 % Indentation
@@ -77,151 +87,141 @@
 		\hspace{1.5em} #2 \par}    % Entry value	
 		
 \newcommand{\EducationEntry}[4]{
-		\noindent \textbf{#1} \hfill      % Study
-		\colorbox{White}{%
-			\parbox{10em}{%
-			\hfill\color{Black}#2}} \par  % Duration
-		\noindent \textit{#3} \par        % School
-		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
-		\normalsize \par}
+		\item \textbf{#1} \hfill #3 \par  % Institution and Date
+		\ifx&#2&%
+		\else
+		\textit{#2} \par        % Degree/Position
+		\fi
+		\ifx&#4&%
+		\else
+		#4 \par
+		\fi
+		\vspace{0.3em}}
 %%% Begin Document
 %%% ------------------------------------------------------------
 \begin{document}
 \MyName{Lorenzo Beretta}
-\begin{flushright}
-\texttt{Webpage: \href{http://lorenzo2beretta.github.io}{lorenzo2beretta.github.io}} \\
-\texttt{E-mail: lorenzo2beretta@gmail.com} 
-% \\
-% \texttt{DBLP: \href{https://dblp.org/pid/34/8239-1.html}{dblp.org/pid/34/8239-1.html}}
-\end{flushright}
+\MyAffiliation{IBM Research, Cambridge, MA}
+\MyContact{$\bullet$ lorenzo2beretta@gmail.com $\bullet$ \href{http://lorenzo2beretta.github.io}{lorenzo2beretta.github.io}}
 %%% Education
 %%% ------------------------------------------------------------
 
 \NewPart{Research Interests}
-My research focuses on designing and analyzing efficient algorithms for problems arising in data science.
-I am particularly interested in sublinear algorithms and high-dimensional geometric problems.  
+High-dimensional geometry, high-dimensional probability, sublinear algorithms, property testing, optimal transport.
 
-\NewPart{Employment}{}
+\NewPart{Education}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Ph.D. in Computer Science University of Copenhagen}{Advised by Mikkel Thorup \& Mikkel Abrahamsen}{Oct 2020 -- Apr 2024}{}
+\EducationEntry{Scuola Normale Superiore (Honors Program)}{During my B.S. and M.S, I took an additional 2-year workload of math and physics courses}{2015 -- 2020}{}
+\EducationEntry{M.S. Computer Science, University of Pisa}{Grade 110/110 cum Laude}{Sep 2018 -- Oct 2020}{}
+\EducationEntry{B.S. Mathematics, University of Pisa}{Grade 110/110 cum Laude}{Sep 2015 -- Oct 2018}{}
+\end{itemize}
 
-\EducationEntry{PostDoc at University of California, Santa Cruz}{Sep 2024 -- Sep 2025}{Host: Vaggos Chatziafratis.}{}
-\EducationEntry{Goldstine Fellow at IBM, Cambridge}{Sep 2025 -- Sep 2026}{Host: Kenneth Clarkson.}{}
-
-\NewPart{Education}{}
-
-\EducationEntry{Ph.D. Basic Algorithm Research Copenhagen, University of Copenhagen}{Oct 2020 --  Apr 2024}{Supervisors: Mikkel Thorup \& Mikkel Abrahamsen.}{}
-
-\EducationEntry{Scuola Normale Superiore (Honors Program)}{}{During my 5-year B.S. and M.S, I took an additional 2-year workload of math and physics courses as part of this honors program.}{}
-
-\EducationEntry{M.S. Computer Science, University of Pisa}{Sep 2018 --  Oct 2020}{Grade 110/110 cum Laude.}{}
-
-\EducationEntry{B.S. Mathematics, University of Pisa}{Sep 2015 -- Oct 2018}{Grade 110/110 cum Laude.}
+\NewPart{Appointments}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Goldstine Fellow at IBM, Cambridge, MA}{Hosted by Kenneth Clarkson}{Sep 2025 -- present}{}
+\EducationEntry{Postdoc at University of California, Santa Cruz}{Hosted by Vaggos Chatziafratis}{Sep 2024 -- Sep 2025}{}
+\end{itemize}
 
 
-\NewPart{Awards}{}
-
-\EducationEntry{Goldstine Postdoctoral Fellowship at IBM}{}{}{}
-
-\EducationEntry{SODA Best Student Paper Award}{}{The paper ``Better Sum Estimation via Weighted Sampling'' was awarded a best student paper award at SODA 2022, it was invited to HALG 2022 and TALG special issue.}{}
-
-\EducationEntry{EU TALENT Doctoral Fellowship Grant}{}{I was granted a PhD fellowship by the Horizon 2020 Marie Skłodowska-Curie program (grant n. 801199).}{}
-
-\EducationEntry{Scuola Normale Superiore: Undergraduate Honors Program}{}{I was admitted to Scuola Normale Superiore and Scuola Superiore Sant'Anna. Both programs are the top programs in Italy for math and engineering respectively and each admits about 15 students per year.}
+\NewPart{Awards}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Herman Goldstine Postdoctoral Fellowship at IBM}{}{2025}{}
+\EducationEntry{Best Student Paper Award, SODA 2022}{for ``Better Sum Estimation via Weighted Sampling'', also invited to \textbf{HALG 2022} and \textbf{TALG special issue}}{2022}{}
+\EducationEntry{EU TALENT Doctoral Fellowship Grant}{I was granted a PhD fellowship by the Horizon 2020 Marie Skłodowska-Curie program (grant n. 801199)}{2020}{}
+\EducationEntry{Undergraduate Honors Program: Scuola Normale Superiore}{I was admitted to Scuola Normale Superiore, top math program in Italy ($\approx$ 15 students admitted per year)}{2015}{}
+\end{itemize}
 
 
 \NewPart{Publications}
-\begingroup
-\renewcommand{\section}[2]{}
-% \bibliographystyle{unsrt}
-% \bibliography{myReferences.bib}
-\begin{enumerate}
+
+\subsection*{Peer Reviewed Conference Proceedings}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em,label={}]
+    \item \textbf{Faster Estimation of the Average Degree of a Graph Using Random Edges and Structural Queries}\\ 
+  \textit{with} Deeparnab Chakrabarty, C. Seshadhri \\
+\textit{Under review} \hfill C12
+
+    \item \textbf{Feature Selection and Junta Testing are Statistically Equivalent}\\ 
+  \textit{with} Nathaniel Harms, Caleb Koch  \\
+\textit{Under review} \hfill C11
+
     \item \textbf{Approximating High-Dimensional Earth Mover's Distance as Fast as Closest Pair}\\ 
-  Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \\
-    in \textbf{FOCS 2025} \textit{(Symposium on Foundations of Computer Science)}.
+  \textit{with} Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten \\
+    Symposium on Foundations of Computer Science (FOCS), 2025 \hfill C10
     
     \item \textbf{New Statistical and Computational Results for Learning Junta Distributions}\\ 
-  Lorenzo Beretta \\
-    in \textbf{RANDOM 2025} \textit{(International Conference on Randomization and Computation)}.
+    International Conference on Randomization and Computation (RANDOM), 2025 \hfill C9
     
     \item \textbf{Sketched Lanczos uncertainty score: a low-memory summary of the Fisher information}\\ 
-  Marco Miani, Lorenzo Beretta, Søren Hauberg \\
-    in \textbf{NeurIPS 2024} \textit{(Advances in Neural Information Processing Systems)}.
+  \textit{with} Marco Miani, Søren Hauberg \\
+    Advances in Neural Information Processing Systems (NeurIPS), 2024 \hfill C8
 
     \item \textbf{Online sorting and online TSP: randomized, stochastic, and high-dimensional}\\ 
-    Mikkel Abrahamsen, Ioana Bercea, Lorenzo Beretta, Jonas Klausen and László Kozma \\
-    in \textbf{ESA 2024} \textit{(European Symposium on Algorithms)}.\
-    Presented at \textbf{HALG 2025}.
+    \textit{with} Mikkel Abrahamsen, Ioana Bercea, Jonas Klausen and László Kozma \\
+    European Symposium on Algorithms (ESA), 2024 \hfill C7
     
     \item \textbf{Approximate Earth Mover's Distance in Truly-Subquadratic Time} \\ 
-    Lorenzo Beretta, Aviad Rubinstein \\
-    in \textbf{STOC 2024} \textit{(Symposium on Theory of Computing)}
+    \textit{with} Aviad Rubinstein \\
+    Symposium on Theory of Computing (STOC), 2024 \hfill C6
     
     \item \textbf{Multi-Swap $k$-Means++} \\
-    Lorenzo Beretta, Vincent Cohen-Addad, Silvio Lattanzi, Nikos Parotsidis \\
-    in \textbf{NeurIPS 2023} \textit{(Advances in Neural Information Processing Systems)}
+    \textit{with} Vincent Cohen-Addad, Silvio Lattanzi, Nikos Parotsidis \\
+    Advances in Neural Information Processing Systems (NeurIPS), 2023 \hfill C5
     
     \item \textbf{Locally Uniform Hashing} \\
-    Ioana Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen, Mikkel Thorup \\
-    in \textbf{FOCS 2023} \textit{(Symposium on Foundations of Computer Science)}
+    \textit{with} Ioana Bercea, Jonas Klausen, Jakob Bæk Tejs Houen, Mikkel Thorup \\
+    Symposium on Foundations of Computer Science (FOCS), 2023 \hfill C4
     
     \item \textbf{Online Sorting and Translational Packing of Convex Polygons} \\
-    Anders Aamand, Mikkel Abrahamsen, Lorenzo Beretta, Linda Kleist \\
-    in \textbf{SODA 2023} \textit{(Symposium on Discrete Algorithms)}
+    \textit{with} Anders Aamand, Mikkel Abrahamsen, Linda Kleist \\
+    Symposium on Discrete Algorithms (SODA), 2023 \hfill C3
 
     \item \textbf{Better Sum Estimation via Weighted Sampling} \\
-    Lorenzo Beretta, Jakub Tetek \\ 
-    in \textbf{SODA 2022} \textit{(Symposium on Discrete Algorithms)} and \textbf{TALG} \textit{(Transactions on Algorithms)}\\
-    \textbf{Best Student Paper Award} \\     \textbf{Invited to HALG 2022 and TALG special issue}
-    \label{paper:soda 2022}
+    \textit{with} Jakub Tetek \\ 
+    Symposium on Discrete Algorithms (SODA), 2022 \\ 
+    \textbf{Best Student Paper Award, invited to HALG 2022 and TALG special issue} \hfill C2
     
     \item \textbf{Online Packing to Minimize Area or Perimeter} \\
-    Mikkel Abrahamsen, Lorenzo Beretta 
-    \\
-    in \textbf{SoCG 2021} \textit{(International Symposium on Computational Geometry)}
+    \textit{with} Mikkel Abrahamsen \\
+    International Symposium on Computational Geometry (SoCG), 2021 \hfill C1
+        \end{itemize}
+
+        \subsection*{Journal Publications}
+        \begin{itemize}[leftmargin=0.5em,itemsep=0.3em,label={}]
+    \item \textbf{Better Sum Estimation via Weighted Sampling} \\
+    \textit{with} Jakub Tetek \\ 
+    Transactions on Algorithms (TALG) \hfill J2
     
     \item \textbf{An Optimal Algorithm to Find Champions of Tournament Graphs} \\
-    Lorenzo Beretta, Franco Maria Nardini, Roberto Trani, Rossano Venturini \\
-    in \textbf{TKDE} \textit{(IEEE Transactions on Knowledge and Data Engineering)} \\ 
-\end{enumerate}
-\nocite{*}
-\endgroup
+    \textit{with} Franco Maria Nardini, Roberto Trani, Rossano Venturini \\
+    IEEE Transactions on Knowledge and Data Engineering (TKDE) \hfill J1
+        \end{itemize}
 
-\NewPart{Work in Progress}
-The following manuscripts are in preparation.
-\begin{itemize}
-    \item \textbf{Tight Bounds on Testing Juntas with Samples} \\
-Lorenzo Beretta, Caleb Koch, Nathaniel Harms
-
-\item \textbf{Subquadratic Earth Mover's Distance via Offline Nearest Neighbor} \\
-Lorenzo Beretta, Vincent Cohen-Addad, Rajesh Jayaram, Erik Waingarten
+\NewPart{Academic Service}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Conference Review}{ESA (2022, 2023, 2024), FOCS (2023), ICALP (2025), ISAAC (2024), ITCS (2024), NeurIPS (2025), SODA (2026), SOSA (2024), STOC (2025), SWAT(2024)}{}{}
+\EducationEntry{Journal Review}{Journal of Computational Geometry (JoCG)}{}{}
 \end{itemize}
 
-\NewPart{Internships}{}
-
-\EducationEntry{Stanford University}{Feb 2023 -- Aug 2023}{I worked with Aviad Rubinstein on sublinear-time matching algorithms.}{}
-
-
-\EducationEntry{Google Research}{Oct 2022 -- Dec 2022}{I worked on designing, analyzing and implementing clustering algorithms.}{}
-
-\EducationEntry{Quantitative Investment Internship, Société Générale}{Aug 2019 -- Oct 2019}{I worked on implementing efficient algorithms for ``optimal intraday execution''.}{}
-
-
-\NewPart{Academic Service}{}
-
-\EducationEntry{Conference Review}{}{ESA (2022, 2023, 2024), ITCS (2024), SOSA (2024), FOCS (2023), SWAT(2024), STOC (2025) ICALP (2025) ISAAC (2024) NeurIPS (2025)}{}
-
-\EducationEntry{Journal Review}{}{Journal of Computational Geometry (JoCG)}{}
+\NewPart{Internships}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Stanford University}{I worked with Aviad Rubinstein on sublinear-time matching algorithms}{Feb 2023 -- Aug 2023}{}
+\EducationEntry{Google Research}{I worked on designing, analyzing and implementing clustering algorithms}{Oct 2022 -- Dec 2022}{}
+\EducationEntry{Quantitative Investment Internship, Société Générale}{I worked on implementing efficient algorithms for optimal execution.}{Aug 2019 -- Oct 2019}{}
+\end{itemize}
 
 \NewPart{Teaching and Leadership}
-\EducationEntry{Teaching Assistant, Copenhagen University}{2021 -- 2022}{I served as a T.A. in the ``Randomized Algorithm'' graduate course at Copenhagen University for two quarters.}{}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\EducationEntry{Teaching Assistant, Copenhagen University}{I served twice as T.A. for the ``Randomized Algorithm'' graduate course at Copenhagen University}{2021 -- 2022}{}
+\EducationEntry{Scout Leader Volunteer}{I volunteered as a Scout leader, managing a troop of about 30 teenagers}{2017 -- 2020}{}
+\end{itemize}
 
-\EducationEntry{Scout Leader Volunteer}{Sep 2017 -- Aug 2020}{I volunteered as a Scout leader, managing  a troop of about 30 teenagers.}{}
+% \EducationEntry{High School Teacher}{Sep 2017 -- May 2018}{I served as a support teacher at a local high school in Pisa.}{}
 
-\EducationEntry{High School Teacher}{Sep 2017 -- May 2018}{I served as a support teacher at a local high school in Pisa.}{}
+% \NewPart{Competitions}{}
 
-\NewPart{Competitions}{}
+% \EducationEntry{ACM ICPC Programming Contest: South-Western Europe Regional Contest}{2018}{Representing Scuola Normale Superiore, Bronze Medal, 10th place.}{}
 
-\EducationEntry{ACM ICPC Programming Contest: South-Western Europe Regional Contest}{2018}{Representing Scuola Normale Superiore, Bronze Medal, 10th place.}{}
-
-\EducationEntry{National Mathematics and Physics Olympiads}{2015}{Silver medal in Mathematics and Bronze medal in Physics.}{}
+% \EducationEntry{National Mathematics and Physics Olympiads}{2015}{Silver medal in Mathematics and Bronze medal in Physics.}{}
 
 \end{document}
