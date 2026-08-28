@@ -25,7 +25,7 @@
 \documentclass[paper=a4,fontsize=11pt]{article} % Standard article class
 			
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage{amsmath,amsfonts,amsthm}     % Math packages
 \usepackage{graphicx}                    % Enable pdflatex
@@ -34,28 +34,23 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage{titlesec}
 
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
 
 %%% Custom sectioning
 %%% ------------------------------------------------------------
-\titleformat{\section}
-  {\Large\bfseries\color{DarkGray}}
-  {}
-  {0em}
-  {}
-  [\titlerule]
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0pt}%
+  {3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}%
+  {\normalfont\Large\bfseries\color{DarkGray}\sectionrule}}
+\newcommand{\sectionrule}{\@ifnextchar[{\sectionrule@i}{\sectionrule@i[]}}
+\def\sectionrule@i[#1]#2{#2\par\nobreak\vspace{0.3ex}\hrule height 0.8pt\relax}
 
-\titleformat{\subsection}
-  {\large\bfseries\color{DarkGray}}
-  {}
-  {0em}
-  {}
-
-\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
-\titlespacing*{\subsection}{0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0pt}%
+  {2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}%
+  {\normalfont\large\bfseries\color{DarkGray}}}
+\makeatother
 
 %%% Macros
 %%% ------------------------------------------------------------
@@ -64,10 +59,10 @@
 \newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
 
 \newcommand{\MyName}[1]{ % Name
-		{\Huge\bfseries\color{DarkGray}\centering #1\par}\vspace{0.5em}}
-		
+		{\Huge\bfseries\color{black}\centering #1\par}\vspace{0.5em}}
+
 \newcommand{\MyAffiliation}[1]{ % Affiliation
-		{\large\color{DarkGray}\centering #1\par}\vspace{0.3em}}
+		{\large\color{black}\centering #1\par}\vspace{0.3em}}
 
 \newcommand{\MyContact}[1]{ % Contact info
 		{\normalsize\color{DarkGray}\centering #1\par}\vspace{1em}}
@@ -137,6 +132,12 @@ Over five years, I completed two extra years of coursework, earning the equivale
 \NewPart{Publications}
 In theoretical computer science, authors are sorted alphabetically. All publications on this list follow this convention apart for C8, where the starred authors share first authorship as is customary in machine learning.
 
+\subsection*{Preprints}
+\begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
+\item \textbf{A Tight Analysis of Khatri-Rao Oblivious Subspace Embeddings}\\
+Lorenzo Beretta, Cameron Musco
+\end{itemize}
+
 \subsection*{Peer Reviewed Conference Proceedings}
 \begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
 \item \textbf{Faster Estimation of the Average Degree of a Graph Using Random Edges and Structural Queries}\\ 
@@ -200,6 +201,7 @@ International Symposium on Computational Geometry (SoCG), 2021 \hfill C1
     Lorenzo Beretta, Franco Maria Nardini, Roberto Trani, Rossano Venturini \\
     IEEE Transactions on Knowledge and Data Engineering (TKDE) \hfill J1
         \end{itemize}
+
 
 \NewPart{Academic Service}
 \begin{itemize}[leftmargin=0.5em,itemsep=0.3em]
